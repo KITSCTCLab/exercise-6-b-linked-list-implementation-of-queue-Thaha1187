@@ -1,7 +1,7 @@
 class Node:
   def _init_(self, data):
     self.data = data
-    self.next = None
+    self.next = none
 
 class Queue:
   def _init_(self):
@@ -21,6 +21,7 @@ class Queue:
       t.data=data
       t.next=None
       self.last=t
+      
   def dequeue(self) -> None:
     # Write your code here
     t=self.head
@@ -29,6 +30,7 @@ class Queue:
     self.head = t.next
     if(self.head == None):
       self.last = None
+      
   def status(self) -> None:
     # Write your code here
     t=self.head
