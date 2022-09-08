@@ -1,14 +1,14 @@
 class Node:
   def _init_(self, data):
     self.data = data
-    self.next = none
+    self.next = None
 
 class Queue:
   def _init_(self):
     self.head = None
     self.last = None
 
-  def enqueue(self, data) -> None:
+  def enqueue(self, data) -> None
     # Write your code here
     if self.last==None:
       self.last=Node(data)
